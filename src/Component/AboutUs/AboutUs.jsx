@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { fadeIn } from '../Varients'
 export default function AboutUs() {
 
+
   return <>
     <div className="mt-6 py-7 mx-auto flex flex-col justify-center lg:translate-x-7">
         <div className="w-full lg:w-6/12">
@@ -19,11 +20,21 @@ export default function AboutUs() {
         {/* slider */}
     
         <div className="flex  items-center justify-between  mt-5 flex-wrap lg:-mt-20" id="Testimotion">
-          <div className="w-full lg:w-6/12  pha"> obcaecati sequi recusandae amet quod magnam dolorum. Delectus corrupti molestias facere.
-          </div>
+          <motion.div
+                variants={fadeIn('right',.3)}
+                initial='hidden'
+                whileInView={"show"}
+          
+          className="w-full lg:w-6/12  pha"> obcaecati sequi recusandae amet quod magnam dolorum. Delectus corrupti molestias facere.
+          </motion.div>
 
           <div className="w-full relative z-50 lg:w-6/12   mt-10 lg:mt-0 lg:-translate-y-10">
-          <div className=" w-[230px]  h-[300px] border-4  border-orange-400 bottom-5 lg:left-20 left-10 absolute "></div>
+          <motion.div
+                variants={fadeIn('right',.3)}
+                initial='hidden'
+                whileInView={"show"}
+          
+          className=" w-[230px]  h-[300px] border-4  border-orange-400 bottom-5 lg:left-20 left-10 absolute "></motion.div>
           <img src={man} className=" w-[230px]  h-[300px] z-50 relative  object-cover translate-x-20 lg:translate-x-30" alt="" />
 
           </div>

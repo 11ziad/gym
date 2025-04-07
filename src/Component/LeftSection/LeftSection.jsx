@@ -14,7 +14,7 @@ export default function LeftSection() {
       opacity : 1,
     },
     visible :{
-      x : 192, 
+      x : 174, 
       opacity : 1,
       transition :{
         duration : 7,

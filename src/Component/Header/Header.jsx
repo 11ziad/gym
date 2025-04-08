@@ -6,6 +6,7 @@ import ChoseUs from '../ChoseUS/ChoseUs'
 import Plans from '../Plans/Plans'
 import AboutUs from '../AboutUs/AboutUs'
 import Footer from '../Footer/Footer'
+import SlidShow from '../SlidShow/SlidShow'
 
 
 export default function Header() {
@@ -20,6 +21,7 @@ export default function Header() {
   <Programs></Programs>
   <ChoseUs></ChoseUs>
   <Plans></Plans>
+  <SlidShow></SlidShow>
   <AboutUs></AboutUs>
   <Footer></Footer>
   </div>

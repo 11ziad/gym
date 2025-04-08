@@ -17,7 +17,7 @@ body{
     background-color: #3c3f45;
     font-family: "Lato", sans-serif;
     font-style: normal;
-    background: linear-gradient(to top , #515151,#2d2726,rgb(37, 43, 53),#463837, #363636,#3c3f45);
+    background: linear-gradient(to top , #515151,#242424,rgb(37, 43, 53),#463837, #363636,#201e1e);
 }
 .stroke-text{
     color: transparent;

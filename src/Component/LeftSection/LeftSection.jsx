@@ -29,7 +29,7 @@ export default function LeftSection() {
 
 
   return <>
-  <div className="w-full lg:w-[70%] pb-10 p-6 " id='home'>
+  <div className="w-full lg:w-[70%] pb-10 p-6 backdiv " id='home'>
 <Navbar></Navbar>
   <div className=" flex-column w-full flex-wrap md:block">
   <div className="back-ani flex justify-center md:block m-auto  w-fit relative rounded-4xl mb-6 md:ms-0 mt-16 md:mt-20">

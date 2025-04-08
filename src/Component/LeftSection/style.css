@@ -2,6 +2,14 @@
 
 
 
+.backdiv{
+
+    background-image: linear-gradient(to bottom ,#262323be,#383838), url('../../assets/image2.82da8b2725df896d8a8e.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
 .back{
     filter: drop-shadow(0px 0px 20px rgb(255, 111, 0));
     /* box-shadow: 0px 0px  20px orange; */
